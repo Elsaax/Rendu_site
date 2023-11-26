@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+h1, h2 , p, ul{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2, p{
+    padding: 10px;
+}
+
+p{
+    font-size: larger;
+}
+
+header{
+    display:flex;
+    height: 90px;
+    background-color: pink;
+
+}
+
+.divLogo{
+    width: 92px;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.font{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.tailleLogo{
+    height: 88px;
+}
+
+#title{
+    color: white;
+    padding-top: 24px;
+    font-size: 200%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+}
+
+ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.head {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6vh 16px;
+    text-decoration: none;
+}
+
+main{
+    min-width: 100vw;
+    min-height: 84vh;
+    background-image:url(../img/catpaw_pattern2.jpg);
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+.size{
+    font-size: 200%;
+}
+.colorFont{
+    color:  rgb(105, 63, 63);
+}
+
+.podium {
+    text-align: center;
+}
+.podium div {
+    width:200px;
+    height:250px;
+}
+.top {
+    margin:auto;
+    padding-bottom: 75px;
+}
+.left {
+    display:inline-block;
+}
+.right {
+    display:inline-block;
+}
+
+div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    height: 100%;
+    background-color: pink;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer p{
+    padding: 20px;
+}
+
+@media all and (max-device-width: 480px)
+{
+    a p{
+        text-align: center;
+    }
+}

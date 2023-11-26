@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+h1, h2 , p, ul{
+    font-family: 'Source Code Pro', monospace;
+}
+header{
+    display:flex;
+    height: 90px;
+    background-color: pink;
+
+}
+
+.divLogo{
+    width: 92px;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.font{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.tailleLogo{
+    height: 88px;
+}
+
+#title{
+    color: white;
+    padding-top: 24px;
+    font-size: 200%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;  
+}
+
+ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.head {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6vh 16px;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 90px;
+    min-height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0) 70%,pink), url(../img/v567-n-50-doodles\ copie.png) no-repeat center center;
+    background-size: cover;
+}
+
+.punchline{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(105, 63, 63);
+}
+
+.centre{
+    min-height: 700px;
+    background-image: url(../img/catpaw_pattern2.jpg);
+    background-repeat: repeat;
+    background-size: 20%;
+}
+
+#rose{
+    background-color: pink;
+    padding: 1%;
+}
+
+
+footer{
+    height: 100%;
+    background-color:pink;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer p{
+    padding: 20px;
+}
